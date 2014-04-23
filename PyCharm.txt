@@ -1,0 +1,18 @@
+Expiration Date: 20 November 2014
+
+Lizenz + Installationsanweisung:
+
+=========INSTALLATION==========
+
+Run PyCharm and follow the Installation Wizard's instructions. To register for use of the software or change your existing registration details, go to Help/Register menu of the software and enter the included below the User Name and License Key(s) into the registration dialog:
+
+User Name: Hochschule der Medien Stuttgart (Stuttgart Media University)
+
+===== LICENSE BEGIN =====
+413971-21112013
+00002BDD8t8sr5C!3EM"awrvl2LKwg
+12uRRSPeK9tVuaWPpn7cWAle7vT3Tw
+QQ9HS4"Jee8H585gXgv3tSpc4AENiU
+===== LICENSE END =====
+
+
