@@ -4,13 +4,12 @@ import matplotlib.pyplot as plt
 import urllib, json, csv
 import time as ti
 
-
-#print pd.read_csv('EnergyMix.csv')
+#import data from file
 dataFrame = pd.DataFrame(pd.read_csv('EnergyMix.csv'))
 print dataFrame
 
+#create fields for the different energy forms
 oil = dataFrame['Oil']
-print oil.size
 gas = dataFrame['Gas']
 coal = dataFrame['Coal']
 nuclear = dataFrame['Nuclear']
@@ -19,9 +18,7 @@ total2009 = dataFrame['Total2009']
 co2emm = dataFrame['CO2Emm']
 countries = dataFrame['Country']
 
-
-print coal.value_counts()
-
+#plot oil usage
 index = np.arange(oil.size)
 plt.bar(index,oil,linewidth=1)
 plt.title('Oil')
@@ -29,8 +26,9 @@ plt.ylabel('Oelenergieverbrauch in Mio Tonnen (p.a.)')
 plt.xlim(0,65)
 plt.xticks(np.arange(65)+0.5,countries,rotation=90)
 plt.tight_layout()
-#plt.show()
+plt.show()
 
+#plot gas usage
 index = np.arange(gas.size)
 plt.bar(index,gas,linewidth=1)
 plt.title('Gas')
@@ -38,8 +36,9 @@ plt.ylabel('Gasenergieverbrauch in Mio Tonnen Oelequivalent (p.a.)')
 plt.xlim(0,65)
 plt.xticks(np.arange(65)+0.5,countries,rotation=90)
 plt.tight_layout()
-#plt.show()
+plt.show()
 
+#plot coal usage
 index = np.arange(coal.size)
 plt.bar(index,coal,linewidth=1)
 plt.title('Coal')
@@ -47,8 +46,9 @@ plt.ylabel('Kohleenergieverbrauch in Mio Tonnen Oelequivalent  (p.a.)')
 plt.xlim(0,65)
 plt.xticks(np.arange(65)+0.5,countries,rotation=90)
 plt.tight_layout()
-#plt.show()
+plt.show()
 
+#plot nuclear usage
 index = np.arange(nuclear.size)
 plt.bar(index,nuclear,linewidth=1)
 plt.title('Nuclear')
@@ -56,9 +56,9 @@ plt.ylabel('Nuklearenergieverbrauch in Mio Tonnen Oelequivalent  (p.a.)')
 plt.xlim(0,65)
 plt.xticks(np.arange(65)+0.5,countries,rotation=90)
 plt.tight_layout()
-#plt.show()
+plt.show()
 
-
+#plot hydro usage
 index = np.arange(hydro.size)
 plt.bar(index,hydro,linewidth=1)
 plt.title('Hydro')
@@ -66,8 +66,9 @@ plt.ylabel('Wasserenergieverbrauch in Mio Tonnen Oelequivalent  (p.a.)')
 plt.xlim(0,65)
 plt.xticks(np.arange(65)+0.5,countries,rotation=90)
 plt.tight_layout()
-#plt.show()
+plt.show()
 
+#plot total usage per country
 index = np.arange(total2009.size)
 plt.bar(index,total2009,linewidth=1)
 plt.title('total2009')
@@ -77,7 +78,7 @@ plt.xticks(np.arange(65)+0.5,countries,rotation=90)
 plt.tight_layout()
 plt.show()
 
-
+#plot total usage in total
 sums = [sum(coal),sum(gas),sum(oil),sum(hydro),sum(nuclear)]
 plt.pie(sums,labels=["coal", "gas", "oil", "hydro", "nuclear"])
 plt.tight_layout()
@@ -91,10 +92,7 @@ plt.xticks(np.arange(5)+0.5,["coal", "gas", "oil", "hydro", "nuclear"],rotation=
 plt.tight_layout()
 plt.show()
 
-print countries
-print type(countries)
-print len(countries)
-
+#geocode function
 def geocode(addr):
 	url = "http://maps.googleapis.com/maps/api/geocode/json?address=%s&sensor=false" %   (urllib.quote(addr.replace(' ', '+')))
 	data = urllib.urlopen(url).read()
@@ -102,11 +100,11 @@ def geocode(addr):
 	#A little ugly I concede, but I am open to all advices :) '''
 	return info
 
-
+#create empty np-arrays
 latitudes   = np.zeros((len(countries)))
 longitudes  = np.zeros((len(countries)))
 
-
+#iterate over all countries and get their lat and long
 for c in range(len(countries)):
     r = geocode(countries[c])
     #if (c%5 == 0):
@@ -116,11 +114,10 @@ for c in range(len(countries)):
     longitudes[c] = r['lng'];
     print "%s has lat %s and long %s" % (countries[c], r['lat'], r['lng'])
 
-
-
-
+#add lat and long to the dataFrame
 dataFrame['Lat'] = pd.Series(latitudes)
 dataFrame['Long'] = pd.Series(longitudes)
-print "------------------------------"
 print dataFrame
-dataFrame.to_csv("EnergyMixGeo.csv")
+
+#save dataFrame to file
+dataFrame.to_csv("EnergyMixGeo.csv", index=False)
