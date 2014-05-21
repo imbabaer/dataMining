@@ -12,18 +12,11 @@ digits = pd.DataFrame(pd.read_csv('EnergyMixGeo.csv'))
 features = (np.array(pd.DataFrame(digits, columns=['Oil','Gas','Coal','Nuclear','Hydro']).values))
 target = (np.array(digits['CO2Emm'].values))
 
-iwas = []
-
-#for durchl in range(10):
 print"\n\n############## Approach 4: SVM-Regression with 10-fold crossvalidation #########################"
-regressor4 = skl.SVR(kernel='linear', C=100, epsilon=0.4)
+regressor4 = skl.SVR(kernel='linear', C=100, epsilon=0.3)
 print'----- Mean Square Error Score for SVM Regression ------------'
 scores = cross_val_score(regressor4, features,target,cv=10,score_func=metrics.mean_squared_error,verbose=50)
 print scores
-    #iwas.append(scores)
-
-#print iwas
-
 
 
 print "Cross Validation Score: %0.3f (+/- %0.3f)" % (scores.mean(), scores.std() / 2)

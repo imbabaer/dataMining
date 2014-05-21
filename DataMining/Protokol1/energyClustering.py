@@ -9,9 +9,9 @@ import pandas as pd
 
 #cluster parameters
 metric="correlation";
-linkage_method="average";
+#linkage_method="average";
 #linkage_method="single";
-#linkage_method="complete";
+linkage_method="complete";
 #linkage_method="weighted";
 n_clusters  = 4
 
@@ -57,7 +57,6 @@ colors      = np.array(['#b266b2', '#58a618', '#00aaee', '#0c1dee', '#2a0d0d', '
 #create subplots
 for cl in range(n_clusters):
     print '------------------------Cluster '+str(cl)+' -----------------'
-    #individualClusters.add_subplot(subplots[cl])
 
     currentCluster = plt.figure(cl+2)
 
@@ -113,7 +112,6 @@ for cl in range(n_clusters):
     else:
         plt.legend(loc=1,prop={'size':12});
     #save plots to file
-    #plt.savefig('individualClusters_%s_%s_%s.png' %(linkage_method, metric,cl));
 
 #set dendrogram parameters
 plt.figure(7)

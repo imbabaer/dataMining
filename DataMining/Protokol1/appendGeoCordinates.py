@@ -97,7 +97,6 @@ def geocode(addr):
 	url = "http://maps.googleapis.com/maps/api/geocode/json?address=%s&sensor=false" %   (urllib.quote(addr.replace(' ', '+')))
 	data = urllib.urlopen(url).read()
 	info = json.loads(data).get("results")[0].get("geometry").get("location")
-	#A little ugly I concede, but I am open to all advices :) '''
 	return info
 
 #create empty np-arrays
@@ -107,9 +106,7 @@ longitudes  = np.zeros((len(countries)))
 #iterate over all countries and get their lat and long
 for c in range(len(countries)):
     r = geocode(countries[c])
-    #if (c%5 == 0):
     ti.sleep(0.5)
-    #print "wait 0.5 s"
     latitudes[c] = r['lat'];
     longitudes[c] = r['lng'];
     print "%s has lat %s and long %s" % (countries[c], r['lat'], r['lng'])

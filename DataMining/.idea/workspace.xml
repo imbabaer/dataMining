@@ -14,19 +14,22 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataMining$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1397469965437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
     <SUITE FILE_PATH="coverage/DataMining$matplot.coverage" NAME="matplot Coverage Results" MODIFIED="1397138622370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
+    <SUITE FILE_PATH="coverage/DataMining$b103_stockMarketClusteringFragment.coverage" NAME="b103_stockMarketClusteringFragment Coverage Results" MODIFIED="1400511698939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol2" />
+    <SUITE FILE_PATH="coverage/DataMining$energyStatistics__1_.coverage" NAME="energyStatistics (1) Coverage Results" MODIFIED="1400508695368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$b102_stockMarketPrediction.coverage" NAME="b102_stockMarketPrediction Coverage Results" MODIFIED="1400499600926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol2" />
     <SUITE FILE_PATH="coverage/DataMining$anotherTest.coverage" NAME="anotherTest Coverage Results" MODIFIED="1397146156061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
     <SUITE FILE_PATH="coverage/DataMining$barchart_demo.coverage" NAME="barchart_demo Coverage Results" MODIFIED="1397743048980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/DataMining$pandas.coverage" NAME="pandas Coverage Results" MODIFIED="1397472302473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$energyReduceDim.coverage" NAME="energyReduceDim Coverage Results" MODIFIED="1399898515890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
-    <SUITE FILE_PATH="coverage/DataMining$energyClustering.coverage" NAME="energyClustering Coverage Results" MODIFIED="1399892133499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$energyReduceDim.coverage" NAME="energyReduceDim Coverage Results" MODIFIED="1400512937637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$energyClustering.coverage" NAME="energyClustering Coverage Results" MODIFIED="1400512883723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1397473475129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestsNStuff" />
-    <SUITE FILE_PATH="coverage/DataMining$energyPrediction.coverage" NAME="energyPrediction Coverage Results" MODIFIED="1399905654601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$energyPrediction.coverage" NAME="energyPrediction Coverage Results" MODIFIED="1400512995905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$test.coverage" NAME="test Coverage Results" MODIFIED="1397729318334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InitioalTests" />
     <SUITE FILE_PATH="coverage/DataMining$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1397730876611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
     <SUITE FILE_PATH="coverage/DataMining$fragenZuProtokoll1.coverage" NAME="fragenZuProtokoll1 Coverage Results" MODIFIED="1397146059585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$energyStatistics.coverage" NAME="energyStatistics Coverage Results" MODIFIED="1399894941578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
-    <SUITE FILE_PATH="coverage/DataMining$energyFeatureSelection.coverage" NAME="energyFeatureSelection Coverage Results" MODIFIED="1399899632941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
-    <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1399888887091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$energyStatistics.coverage" NAME="energyStatistics Coverage Results" MODIFIED="1400512868144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$energyFeatureSelection.coverage" NAME="energyFeatureSelection Coverage Results" MODIFIED="1400512993347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1400512793457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,68 +43,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fragenZuProtokoll1.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="30" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anotherTest.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="15" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestsNStuff/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="26" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="energyFeatureSelection.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokol1/energyFeatureSelection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="41" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="appendGeoCordinates.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokol1/appendGeoCordinates.py">
+        <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/appendGeoCordinates.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="499" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2176">
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state line="108" column="17" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="2057">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="energyStatistics.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyStatistics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="10" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="energyClustering.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokol1/energyClustering.py">
+        <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyClustering.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="28" selection-start="1927" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="2567">
+            <state line="143" column="31" selection-start="5051" selection-end="5051" vertical-scroll-proportion="0.0" vertical-offset="2063" max-vertical-offset="2533">
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -109,35 +72,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="energyPrediction.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Protokol1/energyPrediction.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="29" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.8210526" vertical-offset="412" max-vertical-offset="918">
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="energyStatistics.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokol1/energyStatistics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="19" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="energyReduceDim.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokol1/energyReduceDim.py">
+        <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyReduceDim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="8" column="42" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="energyFeatureSelection.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyFeatureSelection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="energyPrediction.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyPrediction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="44" selection-start="483" selection-end="483" vertical-scroll-proportion="0.2943723" vertical-offset="0" max-vertical-offset="731">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,11 +123,16 @@
         <option value="$PROJECT_DIR$/Protokol1/__init__.py" />
         <option value="$PROJECT_DIR$/TestsNStuff/test3.py" />
         <option value="$USER_HOME$/Downloads/barchart_demo.py" />
-        <option value="$PROJECT_DIR$/Protokol1/appendGeoCordinates.py" />
-        <option value="$PROJECT_DIR$/Protokol1/energyClustering.py" />
         <option value="$PROJECT_DIR$/Protokol1/energyStatistics.py" />
         <option value="$PROJECT_DIR$/Protokol1/energyFeatureSelection.py" />
+        <option value="$PROJECT_DIR$/Protokol2/b102_stockMarketPrediction.py" />
+        <option value="$PROJECT_DIR$/Protokol2/b103_stockMarketClusteringFragment.py" />
+        <option value="$PROJECT_DIR$/Protokol1/appendGeoCordinates.py" />
+        <option value="$PROJECT_DIR$/Protokol1/energyClustering.py" />
         <option value="$PROJECT_DIR$/Protokol1/energyPrediction.py" />
+        <option value="$PROJECT_DIR$/Export/Protokoll1+2/clusters2GoogleMaps.py" />
+        <option value="$PROJECT_DIR$/Export/Protokoll1+2/energyClustering.py" />
+        <option value="$PROJECT_DIR$/Export/Protokoll1+2/energyPrediction.py" />
       </list>
     </option>
   </component>
@@ -211,6 +175,14 @@
               <option name="myItemId" value="DataMining" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.6 (C:/Python27/python.exe) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -219,10 +191,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataMining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestsNStuff" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,20 +205,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Protokol1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataMining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataMining" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="InitioalTests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -274,27 +228,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.energyPrediction">
-    <configuration default="false" name="energyClustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokol1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataMining" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokol1/energyClustering.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="energyStatistics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -302,17 +235,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokol1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Export/Protokoll1+2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataMining" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokol1/energyStatistics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Export/Protokoll1+2/energyStatistics.py" />
       <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="energyClustering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Export/Protokoll1+2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataMining" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Export/Protokoll1+2/energyClustering.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -323,13 +273,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokol1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Export/Protokoll1+2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataMining" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokol1/energyReduceDim.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Export/Protokoll1+2/energyReduceDim.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -342,13 +292,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokol1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Export/Protokoll1+2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataMining" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokol1/energyFeatureSelection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Export/Protokoll1+2/energyFeatureSelection.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -361,17 +311,15 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokol1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Export/Protokoll1+2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DataMining" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokol1/energyPrediction.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Export/Protokoll1+2/energyPrediction.py" />
       <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -459,6 +407,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -480,9 +431,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -526,8 +474,8 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.energyClustering" />
-      <item index="1" class="java.lang.String" itemvalue="Python.energyStatistics" />
+      <item index="0" class="java.lang.String" itemvalue="Python.energyStatistics" />
+      <item index="1" class="java.lang.String" itemvalue="Python.energyClustering" />
       <item index="2" class="java.lang.String" itemvalue="Python.energyReduceDim" />
       <item index="3" class="java.lang.String" itemvalue="Python.energyFeatureSelection" />
       <item index="4" class="java.lang.String" itemvalue="Python.energyPrediction" />
@@ -537,8 +485,8 @@
         <item index="0" class="java.lang.String" itemvalue="Python.energyPrediction" />
         <item index="1" class="java.lang.String" itemvalue="Python.energyFeatureSelection" />
         <item index="2" class="java.lang.String" itemvalue="Python.energyReduceDim" />
-        <item index="3" class="java.lang.String" itemvalue="Python.energyStatistics" />
-        <item index="4" class="java.lang.String" itemvalue="Python.energyClustering" />
+        <item index="3" class="java.lang.String" itemvalue="Python.energyClustering" />
+        <item index="4" class="java.lang.String" itemvalue="Python.energyStatistics" />
       </list>
     </recent_temporary>
   </component>
@@ -570,18 +518,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1720517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18174475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1558966" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48447204" sideWeight="0.31663975" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48447204" sideWeight="0.6833603" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20962733" sideWeight="0.31744748" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20962733" sideWeight="0.6825525" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -607,358 +555,193 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/Protokol2/b103_stockMarketClusteringFragment.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
+    <entry file="file://$PROJECT_DIR$/Protokol2/b102_stockMarketPrediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+        <state line="148" column="13" selection-start="3539" selection-end="3568" vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="2907">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestsNStuff/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="1406" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="75" selection-start="71" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestsNStuff/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="792" selection-end="792" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="799" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="1406" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="15" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="1406" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="1406" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="10" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="1406" selection-end="1426" vertical-scroll-proportion="0.0" vertical-offset="1257" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="10" selection-start="2764" selection-end="2764" vertical-scroll-proportion="0.0" vertical-offset="2058" max-vertical-offset="2499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2811" column="4" selection-start="89493" selection-end="89493" vertical-scroll-proportion="0.0" vertical-offset="47066" max-vertical-offset="62067" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Protokol1/Energieformen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/fragenZuProtokoll1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="30" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/anotherTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="15" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/matplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestsNStuff/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="26" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/energyClustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2380">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitioalTests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="2140" max-vertical-offset="2465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Protokol1/energyReduceDim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Protokol1/energyFeatureSelection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="41" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokol1/appendGeoCordinates.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="499" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2176">
+        <state line="13" column="24" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="2176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b101_stockMarketFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="12" selection-start="2588" selection-end="2594" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b103_stockMarketClusteringFragment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="240" column="17" selection-start="6344" selection-end="6344" vertical-scroll-proportion="0.0" vertical-offset="4029" max-vertical-offset="5032">
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#215#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b102_stockMarketPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="0" selection-start="3946" selection-end="3946" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b102_stockMarketPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="41" selection-start="2263" selection-end="2263" vertical-scroll-proportion="0.0" vertical-offset="1700" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b102_stockMarketPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="1870" selection-end="1870" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2839">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol1/appendGeoCordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="15" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/energyStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.13783784" vertical-offset="51" max-vertical-offset="714">
+          <folding>
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokol1/energyStatistics.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="19" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="765">
+        <state line="26" column="10" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="395" max-vertical-offset="765">
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokol1/energyClustering.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="28" selection-start="1927" selection-end="1954" vertical-scroll-proportion="0.0" vertical-offset="787" max-vertical-offset="2567">
+        <state line="133" column="62" selection-start="4795" selection-end="4795" vertical-scroll-proportion="0.0" vertical-offset="2084" max-vertical-offset="2533">
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol1/energyReduceDim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <element signature="e#0#35#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol1/energyFeatureSelection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <folding>
+            <element signature="e#0#19#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokol1/energyPrediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="29" selection-start="1213" selection-end="1213" vertical-scroll-proportion="0.8210526" vertical-offset="412" max-vertical-offset="918">
+        <state line="28" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b101_stockMarketFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="12" selection-start="2588" selection-end="2594" vertical-scroll-proportion="-0.3519669" vertical-offset="1683" max-vertical-offset="2601">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/clusters2GoogleMaps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="26" selection-start="2289" selection-end="2289" vertical-scroll-proportion="0.8361702" vertical-offset="865" max-vertical-offset="1360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokol2/b103_stockMarketClusteringFragment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="290" column="0" selection-start="7472" selection-end="7472" vertical-scroll-proportion="0.78881985" vertical-offset="4549" max-vertical-offset="5032">
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#215#230#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/appendGeoCordinates.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="17" selection-start="3116" selection-end="3116" vertical-scroll-proportion="0.0" vertical-offset="1574" max-vertical-offset="2057">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyStatistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="10" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyClustering.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="31" selection-start="5051" selection-end="5051" vertical-scroll-proportion="0.0" vertical-offset="2063" max-vertical-offset="2533">
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyReduceDim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="42" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyFeatureSelection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="483" selection-end="483" vertical-scroll-proportion="0.2943723" vertical-offset="0" max-vertical-offset="731">
+          <folding />
         </state>
       </provider>
     </entry>
