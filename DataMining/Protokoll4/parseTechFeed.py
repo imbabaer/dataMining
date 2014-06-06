@@ -28,8 +28,8 @@ trainNonTech=['http://newsfeed.zeit.de/index',
               'http://www.sueddeutsche.de/app/service/rss/alles/rss.xml'
               ]
 test=[
-        "http://rss.golem.de/rss.php?r=sw&feed=RSS0.91",
-        'http://newsfeed.zeit.de/politik/index',
+        #"http://rss.golem.de/rss.php?r=sw&feed=RSS0.91",
+        #'http://newsfeed.zeit.de/politik/index',
         'http://www.welt.de/?service=Rss'
            ]
 
@@ -38,7 +38,7 @@ countnews['tech']=0
 countnews['nontech']=0
 countnews['test']=0
 
-classifier = doc.Classifier(doc.getwords,4,20)
+classifier = doc.Classifier(doc.getwords,3,20)
 
 countTechCat = 0
 countNonTechCat = 0
