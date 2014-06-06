@@ -1,11 +1,12 @@
 def getwords(doc, min, max):
         tmp = {}
         dict = {}
-        array = doc.lower().split(" ")
-
+        array = doc.lower().replace(".","").replace(",","").replace("-","").split(" ")
+        #array = doc.lower().split(" ")
         for i in range(len(array)):
             if (not (array[i].__len__() < min) and (not array[i].__len__() > max)):
                 dict[array[i]] = 1
+        print dict
         return dict
 
 

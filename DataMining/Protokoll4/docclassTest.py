@@ -2,8 +2,8 @@ import docclass as doc
 
 print "Tests for docclass.py"
 
-strings = [ ('nobody owns the water', 'g'),
-            ('the quick rabbit jumps fences','g'),
+strings = [ ('nobody owns the, water.', 'g'),
+            ('the quick- rabbit jumps fences','g'),
             ('buy pharmaceuticals now','b'),
             ('make quick money at the online casino','b'),
             ('the quick brown fox jumps','g'),
