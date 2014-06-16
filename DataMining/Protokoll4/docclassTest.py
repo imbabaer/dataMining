@@ -12,19 +12,22 @@ strings = [ ('nobody owns the, water.', 'g'),
             ('money like water','b')
 ]
 
+#create classifier with function 'getwords', minlength = 3, maxlength = 20
 classifier = doc.Classifier(doc.getwords,3,20)
 
+#train the classifier with the trainingset
 for s in strings:
     classifier.train(s[0],s[1])
 
 toCheck = 'the money jumps'
-
+#get the probability of the string to check with each category
 probg = classifier.prob(toCheck,'g')
 probb = classifier.prob(toCheck,'b')
 
 print probg
 print probb
 
+#use convenience method for checking
 print classifier.getCat(toCheck)
 print classifier.getCat('datamining at night')
-print classifier.getCat('go to the casino with quick money')
+print classifier.getCat('go to the casino with much money')
