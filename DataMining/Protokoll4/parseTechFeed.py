@@ -29,9 +29,9 @@ trainNonTech=['http://newsfeed.zeit.de/index',
               'http://www.sueddeutsche.de/app/service/rss/alles/rss.xml'
               ]
 test=[
-        "http://rss.golem.de/rss.php?r=sw&feed=RSS0.91",
+        #"http://rss.golem.de/rss.php?r=sw&feed=RSS0.91",
         #'http://newsfeed.zeit.de/politik/index',
-        #'http://www.welt.de/?service=Rss'
+        'http://www.welt.de/?service=Rss'
            ]
 
 countnews={}
