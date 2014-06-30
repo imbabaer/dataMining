@@ -19,8 +19,8 @@ for art in something[1]:
 # 224
 # 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 npWordmatrix = np.matrix(something[1])
-print type(something[1])
-print type(npWordmatrix)
+#print type(something[1])
+#print type(npWordmatrix)
 
 
 
@@ -40,11 +40,11 @@ def getZeroLines(matrix):
         rowind += 1
     return zerolines
 
-print len(npWordmatrix)
-print len(articlesNStuff[2])
+#print len(npWordmatrix)
+#print len(articlesNStuff[2])
 
 zerolines = getZeroLines(npWordmatrix)
-print zerolines
+#print zerolines
 
 iterations = 0
 for line in range(len(zerolines)):
@@ -52,10 +52,11 @@ for line in range(len(zerolines)):
     articlesNStuff[2] = np.delete(articlesNStuff[2], zerolines[line] - iterations )
     iterations +=1
 zerolines = getZeroLines(npWordmatrix)
-print zerolines
+#print zerolines
 
-print len(npWordmatrix)
-print len(articlesNStuff[2])
+#print len(npWordmatrix)
+#print len(articlesNStuff[2])
 #npWordmatrix.shape[0]/2
-wh = nf.nnmf(npWordmatrix, 15, 100)
-print wh
+wh = nf.nnmf(npWordmatrix, 10, 15)
+
+nf.showfeatures(wh[0], wh[1], articlesNStuff[2], something[0], [1,2,3])

@@ -121,34 +121,112 @@ def makematrix(allw, articlew):
 
 def cost(A,B):
     result=0
-    shape = A.shape
-    rows = shape[0]
-    cols = shape[1]
+    rows = A.shape[0]
+    cols = A.shape[1]
     for i in range(rows):
         for j in range(cols):
             result+= (A.item(i,j) - B.item(i,j)) ** 2
+    #print result
     return result
 
 def nnmf(A,m,it):
     result = []
-    H = np.random.random_integers(0, 5, (m, A.shape[1]))
-    W = np.random.random_integers(0, 5, (A.shape[0],m))
+    H = np.random.rand(m, A.shape[1])
+    W = np.random.rand(A.shape[0], m)
+    print H.shape
+    print W.shape
     i = 0
     while i < it:
         B = W.dot(H)
+        k = cost(A,B)
         # a)
-        if(cost(A,B)>=5):
+        if(k<=5):
+            print(k)
             break
+
         # b)
-        WT = W.transpose()
-        HArray = np.array(H)* ( np.array(WT)*np.array(A))/(np.array(WT)*np.array(B))
-        H = np.matrix(HArray.reshape(H.shape[0],H.shape[1]))
+        temH = H.copy()
+        H = np.array(H)*( (np.array(W.T.dot(A))) / (np.array(W.T.dot(W).dot(H))) )
 
         # c)
-        HT = H.transpose()
-        WArray = np.array(H)* ( np.array(A)*np.array(HT))/np.array(B)*(np.array(HT))
-        W = np.matrix(WArray.reshape(W.shape[0],W.shape[1]))
-
+        W = np.array(W)*( (np.array(A.dot(H.T))) / (np.array(W.dot(H).dot(H.T))) )
+        i+= 1
     result.append(W)
     result.append(H)
     return result
+
+def getKey(item):
+    return item[0]
+
+def showfeatures(w, h, titles, wordvec, featureIndices, nWords=6, nFeatures = 3, nArticles = 3):
+    # Merkmalsmatrix
+    print "Merkmalsmatrix:"
+    print "xx"*30
+    merkmale = []
+    for i in range(h.shape[0]):
+        mList = []
+        for j in range(len(h[i])):
+            mList.append((h[i][j] ,wordvec[j]))
+
+        mList = sorted(mList, key=getKey, reverse=True)
+        tmpList = []
+        for f in range(nWords):
+            print mList[f]
+            tmpList.append(mList[f])
+        print ".."*30
+
+        merkmale.append(tmpList)
+    print " "
+    print merkmale
+    print " "
+
+    # Gewichtsmatrix
+    print "Gewichtsmatrix:"
+    print "xx"*30
+    allArticles = []
+    for artIndex in range(w.shape[0]):
+        gList = []
+        allFeatures = []
+        for featureInd in range(len(w[artIndex])):
+            gList.append((w[artIndex][featureInd],(titles[artIndex], merkmale[featureInd], featureInd)))
+        gList = sorted(gList, key=getKey,reverse=True)
+
+        print titles[artIndex] + ": \n"
+        #show n best Features for articles
+        for f in range(nFeatures):
+            allFeatures.append(gList[f][1][2])
+            #show feature words
+            output = ""
+            for word in gList[f][1][1]:
+                output += word[1] + ", "
+            print output
+        print ".."*30
+        allArticles.append((gList,allFeatures))
+
+    print "Zusatsaufgabe: "
+    for featureIndex in range(len(featureIndices)):
+        featureWords = ""
+        for word in merkmale[featureIndices[featureIndex]]:
+            featureWords += word[1] + ", "
+        print "_"*50
+        print "Die Merkmale "
+        print featureWords
+        print "sind in folgenden Artikeln enthalten:\n"
+
+        allArticlesWithFeature = []
+        for article in allArticles:
+            #featureIndex list of the article
+
+            for feature in article[1]:
+                #if featureIndex is contained in article[3], append article to allArticlesWithFeature
+                if featureIndices[featureIndex] == feature:
+                    allArticlesWithFeature.append(article[0][1][1][0])
+
+
+        #show nArticles of allArticles
+        for i in range(nArticles):
+            print allArticlesWithFeature[i]
+        print ''
+        print ''
+
+    return (mList, gList)
