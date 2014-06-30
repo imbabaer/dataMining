@@ -33,36 +33,33 @@ feedlist =[ 'http://feeds.reuters.com/reuters/topNews',
 'http://www.nytimes.com/services/xml/rss/nyt/World.xml'
 'http://www.nytimes.com/services/xml/rss/nyt/Economy.xml'
 ]
-'''
-for feed in feedlist:
-    fp=feedparser.parse(feed)
-    print type(fp)
-    for e in fp.entries:
-        ti=stripHTML(e.title)
-        de = stripHTML(e.description)
-        print ti
-        print de
-        print " "
-        print "--x"*20
-'''
 
+# get all words of all feeds, all words per article, all article titles and all article description
 def getarticlewords():
+    #instantiate new lists and dictionaries
     result = []
     allwords = {}
     articlewords = []
     articletitles = []
     articledexription = []
     i = 0
+
+    #parse every feed
     for feed in feedlist:
         f=feedparser.parse(feed)
-        #print type(f)
-
+        #for every article in the feed
         for e in f.entries:
             articlewords.append({})
+            #remove html tags
             title=stripHTML(e.title)
+            #remove html tags
             description = stripHTML(e.description)
+            #concatinate title and description to one string
             fulltext = title + " " + description
+            #get array of the single words
             seperatedWords = seperatewords(fulltext)
+
+            #increase counter of word in allwords and articlewords, if not existent create entry
             for word in seperatedWords:
                 if word in articlewords[i]:
                     articlewords[i][word] += 1
@@ -79,7 +76,7 @@ def getarticlewords():
             i+=1
 
 
-
+    #concatinate result array
     result.append(allwords)
     result.append(articlewords)
     result.append(articletitles)
@@ -87,11 +84,13 @@ def getarticlewords():
     return result
 
 def makematrix(allw, articlew):
+    #instantiate arrays
     result = []
     wordvec= []
     wordInArt = []
     totalArticles = len(articlew)
 
+    #check every word if conditions are met for adding to the wordvec
     for word in allw:
         wordCount = 0
         for art in articlew:
@@ -100,25 +99,24 @@ def makematrix(allw, articlew):
         if allw[word]>=4 and float(wordCount)/float(totalArticles) <= 0.6:
             wordvec.append(word)
 
+    #create article/word-matrix
     for art in articlew:
         tmpLine = []
-        allzero = True
         for word in wordvec:
             if word in art:
                 tmpLine.append(art[word])
-                allzero = False
             else:
                 tmpLine.append(0)
 
-        #if ~allzero:
         wordInArt.append(tmpLine)
 
 
-
+    #concatinate result
     result.append(wordvec)
     result.append(wordInArt)
     return result
 
+# calculate sum of the squared difference of matrix A and B
 def cost(A,B):
     result=0
     rows = A.shape[0]
@@ -129,13 +127,17 @@ def cost(A,B):
     #print result
     return result
 
+
 def nnmf(A,m,it):
+    #instantiate H,W
     result = []
     H = np.random.rand(m, A.shape[1])
     W = np.random.rand(A.shape[0], m)
     print H.shape
     print W.shape
     i = 0
+
+    #adjust H,W after calculating costs if limit is not met
     while i < it:
         B = W.dot(H)
         k = cost(A,B)
@@ -155,58 +157,66 @@ def nnmf(A,m,it):
     result.append(H)
     return result
 
+#helping function for sorting tuples
 def getKey(item):
     return item[0]
 
 def showfeatures(w, h, titles, wordvec, featureIndices, nWords=6, nFeatures = 3, nArticles = 3):
-    # Merkmalsmatrix
+    # Show results of featurematrix with given conditions
     print "Merkmalsmatrix:"
-    print "xx"*30
-    merkmale = []
+    print "x"*60
+    selectedFeatureList = []
     for i in range(h.shape[0]):
         mList = []
+        #collect list of words and its quantitiy
         for j in range(len(h[i])):
             mList.append((h[i][j] ,wordvec[j]))
-
+        #reverse sort list
         mList = sorted(mList, key=getKey, reverse=True)
+
+        # print number of desired words per feature and append the words to tmpList
         tmpList = []
         for f in range(nWords):
             print mList[f]
             tmpList.append(mList[f])
         print ".."*30
 
-        merkmale.append(tmpList)
-    print " "
-    print merkmale
-    print " "
+        #add list with reduced amount of words
+        selectedFeatureList.append(tmpList)
 
-    # Gewichtsmatrix
+    # Show results of weightmatrix with given conditions
     print "Gewichtsmatrix:"
-    print "xx"*30
+    print "x"*60
     allArticles = []
     for artIndex in range(w.shape[0]):
         gList = []
         allFeatures = []
+        #collect list of weight, article title, featurevector and feature index
         for featureInd in range(len(w[artIndex])):
-            gList.append((w[artIndex][featureInd],(titles[artIndex], merkmale[featureInd], featureInd)))
+            gList.append((w[artIndex][featureInd],titles[artIndex], selectedFeatureList[featureInd], featureInd))
+        #reverse sort list
         gList = sorted(gList, key=getKey,reverse=True)
 
+        #print number of desired features per article
         print titles[artIndex] + ": \n"
         #show n best Features for articles
         for f in range(nFeatures):
-            allFeatures.append(gList[f][1][2])
+            allFeatures.append(gList[f][3])
             #show feature words
             output = ""
-            for word in gList[f][1][1]:
+            for word in gList[f][2]:
                 output += word[1] + ", "
             print output
         print ".."*30
         allArticles.append((gList,allFeatures))
 
+    # show number of desired articles containing given features and their features
     print "Zusatsaufgabe: "
+    #for every given featureIndex
     for featureIndex in range(len(featureIndices)):
         featureWords = ""
-        for word in merkmale[featureIndices[featureIndex]]:
+        #get feature words
+        for word in selectedFeatureList[featureIndices[featureIndex]]:
             featureWords += word[1] + ", "
         print "_"*50
         print "Die Merkmale "
@@ -214,19 +224,17 @@ def showfeatures(w, h, titles, wordvec, featureIndices, nWords=6, nFeatures = 3,
         print "sind in folgenden Artikeln enthalten:\n"
 
         allArticlesWithFeature = []
+        #search for every article that contains the specific feature
         for article in allArticles:
-            #featureIndex list of the article
-
             for feature in article[1]:
-                #if featureIndex is contained in article[3], append article to allArticlesWithFeature
+                #if featureIndex is contained in the article, append article to allArticlesWithFeature
                 if featureIndices[featureIndex] == feature:
-                    allArticlesWithFeature.append(article[0][1][1][0])
+                    #add article title to list
+                    allArticlesWithFeature.append(article[0][1][1])
 
 
-        #show nArticles of allArticles
+        #show desired number of allArticles
         for i in range(nArticles):
             print allArticlesWithFeature[i]
         print ''
         print ''
-
-    return (mList, gList)

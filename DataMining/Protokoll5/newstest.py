@@ -1,29 +1,26 @@
 import newsfeatures as nf
 import numpy as np
-articlesNStuff= nf.getarticlewords()
+# get all words of all feeds, all words per article, all article titles and all article description
+feedData= nf.getarticlewords()
 
-something = nf.makematrix(articlesNStuff[0],articlesNStuff[1])
+# get article/word-matrix and wordvec
+matrixData = nf.makematrix(feedData[0],feedData[1])
 
-
+#write matrixData into file
 f = open('WordInArt.txt', 'w')
-
-for word in something[0]:
+for word in matrixData[0]:
     f.write(word + ',')
 f.write('\n')
-
-for art in something[1]:
+for art in matrixData[1]:
     for i in range(len(art)):
         f.write(str(art[i])+',')
     f.write('\n')
 
-# 224
-# 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-npWordmatrix = np.matrix(something[1])
-#print type(something[1])
-#print type(npWordmatrix)
+# create numpy matrix of the article/word-matrix
+npWordmatrix = np.matrix(matrixData[1])
 
 
-
+# helper function to get indices of zerolines
 def getZeroLines(matrix):
     rows = matrix.shape[0]
     cols = matrix.shape[1]
@@ -40,23 +37,19 @@ def getZeroLines(matrix):
         rowind += 1
     return zerolines
 
-#print len(npWordmatrix)
-#print len(articlesNStuff[2])
-
+#get zeroline indices
 zerolines = getZeroLines(npWordmatrix)
-#print zerolines
 
+#delte zerolines from the matrix and the articletitlelist
 iterations = 0
 for line in range(len(zerolines)):
     npWordmatrix = np.delete(npWordmatrix, zerolines[line] - iterations ,0)
-    articlesNStuff[2] = np.delete(articlesNStuff[2], zerolines[line] - iterations )
+    feedData[2] = np.delete(feedData[2], zerolines[line] - iterations )
     iterations +=1
 zerolines = getZeroLines(npWordmatrix)
-#print zerolines
 
-#print len(npWordmatrix)
-#print len(articlesNStuff[2])
-#npWordmatrix.shape[0]/2
+#get W and H
 wh = nf.nnmf(npWordmatrix, 10, 15)
 
-nf.showfeatures(wh[0], wh[1], articlesNStuff[2], something[0], [1,2,3])
+#print featurematrix, weightmatrix, and articles with given features.
+nf.showfeatures(wh[0], wh[1], feedData[2], matrixData[0], [1,2,3])

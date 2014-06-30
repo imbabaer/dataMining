@@ -22,7 +22,7 @@
     <SUITE FILE_PATH="coverage/DataMining$energyClustering.coverage" NAME="energyClustering Coverage Results" MODIFIED="1400512883723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$energyPrediction.coverage" NAME="energyPrediction Coverage Results" MODIFIED="1401708256478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1397730876611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
-    <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404141501394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
+    <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404144374080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
     <SUITE FILE_PATH="coverage/DataMining$example.coverage" NAME="example Coverage Results" MODIFIED="1404126398898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1400512793457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$newsfeatures.coverage" NAME="newsfeatures Coverage Results" MODIFIED="1403783919088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
@@ -60,37 +60,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsfeatures.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="newsfeatures.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protokoll5/newsfeatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="51" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.32" vertical-offset="3075" max-vertical-offset="3995">
+            <state line="101" column="31" selection-start="3094" selection-end="3113" vertical-scroll-proportion="0.0" vertical-offset="2705" max-vertical-offset="4131">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newstest.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="newstest.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Protokoll5/newstest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="70" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1139">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nmf.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/nmf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1632">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="9" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="357">
+            <state line="53" column="69" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.7489452" vertical-offset="529" max-vertical-offset="1003">
               <folding />
             </state>
           </provider>
@@ -99,7 +81,7 @@
       <file leaf-file-name="WordInArt.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Protokoll5/WordInArt.txt">
           <provider editor-type-id="text-editor">
-            <state line="442" column="0" selection-start="348362" selection-end="348362" vertical-scroll-proportion="0.0" vertical-offset="7514" max-vertical-offset="7616">
+            <state line="445" column="0" selection-start="356999" selection-end="356999" vertical-scroll-proportion="0.0" vertical-offset="7565" max-vertical-offset="7667">
               <folding />
             </state>
           </provider>
@@ -145,8 +127,8 @@
         <option value="$PROJECT_DIR$/Protokoll4/docclassTest.py" />
         <option value="$PROJECT_DIR$/Protokoll4/parseTechFeed.py" />
         <option value="$PROJECT_DIR$/Protokoll5/feedparser.py" />
-        <option value="$PROJECT_DIR$/Protokoll5/newstest.py" />
         <option value="$PROJECT_DIR$/Protokoll5/newsfeatures.py" />
+        <option value="$PROJECT_DIR$/Protokoll5/newstest.py" />
       </list>
     </option>
   </component>
@@ -549,7 +531,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -561,7 +543,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1558966" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36335403" sideWeight="0.42245558" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45496893" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22360249" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -616,11 +598,6 @@
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/Protokoll4/parseTechFeed.py</url>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/Protokoll5/newsfeatures.py</url>
-          <line>132</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="15" />
@@ -873,7 +850,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll5/WordInArt.txt">
       <provider editor-type-id="text-editor">
-        <state line="442" column="0" selection-start="348362" selection-end="348362" vertical-scroll-proportion="0.0" vertical-offset="7514" max-vertical-offset="7616">
+        <state line="445" column="0" selection-start="356999" selection-end="356999" vertical-scroll-proportion="0.0" vertical-offset="7565" max-vertical-offset="7667">
           <folding />
         </state>
       </provider>
@@ -895,16 +872,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Protokoll5/newstest.py">
+    <entry file="file://$PROJECT_DIR$/Protokoll5/newsfeatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="70" selection-start="2253" selection-end="2253" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1139">
+        <state line="101" column="31" selection-start="3094" selection-end="3113" vertical-scroll-proportion="0.0" vertical-offset="1481" max-vertical-offset="4131">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Protokoll5/newsfeatures.py">
+    <entry file="file://$PROJECT_DIR$/Protokoll5/newstest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="51" selection-start="4853" selection-end="4853" vertical-scroll-proportion="0.32" vertical-offset="3075" max-vertical-offset="3995">
+        <state line="53" column="69" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.7489452" vertical-offset="529" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
