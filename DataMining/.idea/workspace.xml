@@ -22,8 +22,9 @@
     <SUITE FILE_PATH="coverage/DataMining$energyClustering.coverage" NAME="energyClustering Coverage Results" MODIFIED="1400512883723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$energyPrediction.coverage" NAME="energyPrediction Coverage Results" MODIFIED="1401708256478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1397730876611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
-    <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404144374080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
+    <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404144922487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
     <SUITE FILE_PATH="coverage/DataMining$example.coverage" NAME="example Coverage Results" MODIFIED="1404126398898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/DataMining$facerecognitionTemplate.coverage" NAME="facerecognitionTemplate Coverage Results" MODIFIED="1404397616384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
     <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1400512793457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$newsfeatures.coverage" NAME="newsfeatures Coverage Results" MODIFIED="1403783919088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
     <SUITE FILE_PATH="coverage/DataMining$anotherTest.coverage" NAME="anotherTest Coverage Results" MODIFIED="1397146156061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
@@ -51,42 +52,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="docclass.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokoll4/docclass.py">
+      <file leaf-file-name="facerecognitionTemplate.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="13" selection-start="1983" selection-end="1983" vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="2363">
-              <folding />
+            <state line="46" column="5" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.33333334" vertical-offset="651" max-vertical-offset="1479">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newsfeatures.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokoll5/newsfeatures.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="31" selection-start="3094" selection-end="3113" vertical-scroll-proportion="0.0" vertical-offset="2705" max-vertical-offset="4131">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newstest.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Protokoll5/newstest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="69" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.7489452" vertical-offset="529" max-vertical-offset="1003">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordInArt.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Protokoll5/WordInArt.txt">
-          <provider editor-type-id="text-editor">
-            <state line="445" column="0" selection-start="356999" selection-end="356999" vertical-scroll-proportion="0.0" vertical-offset="7565" max-vertical-offset="7667">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
           </provider>
         </entry>
       </file>
@@ -129,6 +102,7 @@
         <option value="$PROJECT_DIR$/Protokoll5/feedparser.py" />
         <option value="$PROJECT_DIR$/Protokoll5/newsfeatures.py" />
         <option value="$PROJECT_DIR$/Protokoll5/newstest.py" />
+        <option value="$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py" />
       </list>
     </option>
   </component>
@@ -164,6 +138,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +154,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="DataMining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataMining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DataMining" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Protokoll6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -212,7 +201,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,26 +227,7 @@
       <recent name="D:\softwareprojects\dataMining\DataMining\DataMining\Protokoll4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.newstest">
-    <configuration default="false" name="newsfeatures" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokoll5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataMining" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\softwareprojects\dataMining\DataMining\DataMining\Protokoll5\newsfeatures.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.facerecognitionTemplate">
     <configuration default="false" name="newsfeatures (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,6 +303,27 @@
       <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/example.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="facerecognitionTemplate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokoll6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataMining" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -421,9 +411,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -445,6 +432,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -488,19 +478,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.newsfeatures" />
-      <item index="1" class="java.lang.String" itemvalue="Python.newsfeatures (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.newsfeatures (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.newstest" />
-      <item index="4" class="java.lang.String" itemvalue="Python.example" />
+      <item index="0" class="java.lang.String" itemvalue="Python.newsfeatures (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.newsfeatures (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.newstest" />
+      <item index="3" class="java.lang.String" itemvalue="Python.example" />
+      <item index="4" class="java.lang.String" itemvalue="Python.facerecognitionTemplate" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.newstest" />
-        <item index="1" class="java.lang.String" itemvalue="Python.example" />
-        <item index="2" class="java.lang.String" itemvalue="Python.newsfeatures (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.newsfeatures (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.newsfeatures" />
+        <item index="0" class="java.lang.String" itemvalue="Python.facerecognitionTemplate" />
+        <item index="1" class="java.lang.String" itemvalue="Python.newstest" />
+        <item index="2" class="java.lang.String" itemvalue="Python.example" />
+        <item index="3" class="java.lang.String" itemvalue="Python.newsfeatures (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.newsfeatures (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -531,7 +521,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -539,19 +529,19 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20113085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10096931" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1558966" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36335403" sideWeight="0.42245558" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22360249" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.310559" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -569,9 +559,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20113085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27639753" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27639753" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -604,11 +594,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyReduceDim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="374" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyFeatureSelection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
@@ -848,28 +833,14 @@
         <state line="353" column="0" selection-start="9712" selection-end="9712" vertical-scroll-proportion="0.0" vertical-offset="5886" max-vertical-offset="18700" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Protokoll5/WordInArt.txt">
-      <provider editor-type-id="text-editor">
-        <state line="445" column="0" selection-start="356999" selection-end="356999" vertical-scroll-proportion="0.0" vertical-offset="7565" max-vertical-offset="7667">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Downloads/nmf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1581">
-          <folding />
-        </state>
+        <state line="9" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1581" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
+        <state line="10" column="9" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll5/newsfeatures.py">
@@ -881,8 +852,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll5/newstest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="69" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.7489452" vertical-offset="529" max-vertical-offset="1003">
+        <state line="53" column="69" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.8446602" vertical-offset="362" max-vertical-offset="1003">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokoll5/WordInArt.txt">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="446" column="0" selection-start="364979" selection-end="364979" vertical-scroll-proportion="0.0" vertical-offset="7582" max-vertical-offset="7684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="5" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.33333334" vertical-offset="651" max-vertical-offset="1479">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
