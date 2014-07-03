@@ -58,6 +58,15 @@ def convertImgListToNumpyData(imgList):
         count += 1
     return matrix
 
+def calculateEigenfaces(adjfaces, width, height):
+    matrix = adjfaces.dot(adjfaces.T)
+    eigenvalues, eigenvectors = np.linalg.eigh(matrix)
+
+    eigenvalues, eigenvectors = zip(*sorted(zip(eigenvalues, eigenvectors),reverse=True))
+
+
+    return np.array(eigenvectors)
+
 
 ####################################################################################
 #Start of main programm
@@ -79,4 +88,34 @@ imgList = generateListOfImgs(listOfTrainFiles)
 print "x"*40
 matrix = convertImgListToNumpyData(imgList)
 print "x"*40
-print matrix
+
+averageFace = np.average(matrix,0)
+print averageFace
+print "x"*40
+print matrix.shape
+print "x"*40
+NormedArrayOfFaces = np.subtract(matrix,averageFace)
+print NormedArrayOfFaces.shape
+print "x"*40
+eigenFaces = calculateEigenfaces(NormedArrayOfFaces, NormedArrayOfFaces.shape[1], NormedArrayOfFaces.shape[0])
+print eigenFaces.shape
+
+Usub = np.zeros((63,6))
+for i in range(6):
+    print eigenFaces[i]
+    print "o"*40
+    Usub[:,i]=eigenFaces[i]
+
+print Usub
+print NormedArrayOfFaces.shape
+
+transformed = np.zeros((63,6))
+for i in range(63):
+    for j in range(6):
+        print type(Usub)
+        print type(Usub[:,j])
+        print Usub[:,j].shape
+        print NormedArrayOfFaces[i].shape
+        transformed[i,j]= NormedArrayOfFaces[i].reshape(1,33000).dot(Usub[:,j].reshape((63,1)))
+
+print transformed.shape

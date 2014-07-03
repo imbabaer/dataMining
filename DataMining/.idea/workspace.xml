@@ -24,7 +24,7 @@
     <SUITE FILE_PATH="coverage/DataMining$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1397730876611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
     <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404144922487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
     <SUITE FILE_PATH="coverage/DataMining$example.coverage" NAME="example Coverage Results" MODIFIED="1404126398898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
-    <SUITE FILE_PATH="coverage/DataMining$facerecognitionTemplate.coverage" NAME="facerecognitionTemplate Coverage Results" MODIFIED="1404397616384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
+    <SUITE FILE_PATH="coverage/DataMining$facerecognitionTemplate.coverage" NAME="facerecognitionTemplate Coverage Results" MODIFIED="1404405934057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
     <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1400512793457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
     <SUITE FILE_PATH="coverage/DataMining$newsfeatures.coverage" NAME="newsfeatures Coverage Results" MODIFIED="1403783919088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
     <SUITE FILE_PATH="coverage/DataMining$anotherTest.coverage" NAME="anotherTest Coverage Results" MODIFIED="1397146156061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="facerecognitionTemplate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="5" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.33333334" vertical-offset="651" max-vertical-offset="1479">
+            <state line="34" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-2.9494948" vertical-offset="1746" max-vertical-offset="2142">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -521,8 +521,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -533,7 +533,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1558966" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36335403" sideWeight="0.42245558" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.310559" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30590063" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -869,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="5" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.33333334" vertical-offset="651" max-vertical-offset="1479">
+        <state line="34" column="0" selection-start="1079" selection-end="1079" vertical-scroll-proportion="-2.9494948" vertical-offset="1746" max-vertical-offset="2142">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
