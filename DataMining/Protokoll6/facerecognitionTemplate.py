@@ -98,6 +98,11 @@ averageFace = np.average(matrix,0)
 Image.fromarray(averageFace.reshape((220,150))*255).show()
 #get averagefree faces
 NormedArrayOfFaces = np.subtract(matrix,averageFace)
+'''
+#show all averagefree training faces
+for face in NormedArrayOfFaces:
+    Image.fromarray(face.reshape((220,150))*255).show()
+'''
 #calculate eigenfaces
 eigenFaces = calculateEigenfaces(NormedArrayOfFaces.T, NormedArrayOfFaces.shape[1], NormedArrayOfFaces.shape[0])
 #transform all trainingfaces into eigenface-space
