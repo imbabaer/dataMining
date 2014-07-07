@@ -130,7 +130,7 @@ for i, img in enumerate(allTransformed):
         distance = tmpDist
         faceNumber = i
 
-#shop image with min distance
+#shop trainingimage with min distance
 Image.fromarray(matrix[faceNumber].reshape((220,150))*255).show()
 #show test image
 imgToDetect.show()
