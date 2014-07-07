@@ -2,14 +2,9 @@ from os.path import isdir,join,normpath
 from os import listdir
 from PIL import Image
 import sys
-import matplotlib.pyplot as plt
 
 import numpy as np
 from numpy import asfarray,dot,argmin,zeros
-from numpy import average,sort,trace
-from numpy.linalg import svd,eigh
-from numpy import concatenate, reshape
-from math import sqrt
 
 import tkFileDialog
 
@@ -36,7 +31,6 @@ def generateListOfImgs(listOfTrainFiles):
     result = []
     for file in listOfTrainFiles:
         img = Image.open(file)
-        print img.size
         result.append(img)
 
     return result
@@ -56,7 +50,6 @@ def convertImgListToNumpyData(imgList):
             np_im[0,i] = np_im[0,i]/float(max)
 
         matrix[count] = np_im
-        #np.insert(matrix, count , np_im, 0)
         count += 1
     return matrix
 
@@ -86,11 +79,8 @@ Extension='png'
 
 
 listOfTrainFiles = parseDirectory(TrainDir,Extension)
-print "x"*40
 imgList = generateListOfImgs(listOfTrainFiles)
-print "x"*40
 matrix = convertImgListToNumpyData(imgList)
-print "x"*40
 averageFace = np.average(matrix,0)
 Image.fromarray(averageFace.reshape((220,150))*255).show()
 
@@ -121,3 +111,4 @@ for i, img in enumerate(allTransformed):
         faceNumber = i
 Image.fromarray(matrix[faceNumber].reshape((220,150))*255).show()
 imgToDetect.show()
+print "Distance of test image and found training image: ",distance
