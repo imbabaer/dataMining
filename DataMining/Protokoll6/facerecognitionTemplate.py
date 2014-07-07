@@ -1,6 +1,8 @@
 from os.path import isdir,join,normpath
 from os import listdir
 from PIL import Image
+import sys
+import matplotlib.pyplot as plt
 
 import numpy as np
 from numpy import asfarray,dot,argmin,zeros
@@ -59,24 +61,25 @@ def convertImgListToNumpyData(imgList):
     return matrix
 
 def calculateEigenfaces(adjfaces, width, height):
-    matrix = adjfaces.dot(adjfaces.T)
+    matrix = adjfaces.T.dot(adjfaces)
     eigenvalues, eigenvectors = np.linalg.eigh(matrix)
+    u = adjfaces.dot(eigenvectors)
+    index = eigenvalues.argsort()[::-1]
+    u=u[:, index]
+    return u
 
-    eigenvalues, eigenvectors = zip(*sorted(zip(eigenvalues, eigenvectors),reverse=True))
-
-
-    return np.array(eigenvectors)
-
-
+def transformToEigenfaceSpace(eigenfaces, face, numFeatures):
+    pointToEigenspace = np.zeros(shape=(numFeatures))
+    for i in range(numFeatures):
+        pointToEigenspace[i]=dot((eigenfaces[:,i:i+1].T), face)
+    return pointToEigenspace
 ####################################################################################
 #Start of main programm
 
 #Choose Directory which contains all training images 
 TrainDir=tkFileDialog.askdirectory(title="Choose Directory of training images")
 #Choose the file extension of the image files
-Extension='png' 
-#Choose the image which shall be recognized
-testImageDirAndFilename=tkFileDialog.askopenfilename(title="Choose Image to detect")
+Extension='png'
 
 ####################################################################################
 # Implement required functionality of the main programm here
@@ -88,34 +91,33 @@ imgList = generateListOfImgs(listOfTrainFiles)
 print "x"*40
 matrix = convertImgListToNumpyData(imgList)
 print "x"*40
-
 averageFace = np.average(matrix,0)
-print averageFace
-print "x"*40
-print matrix.shape
-print "x"*40
+Image.fromarray(averageFace.reshape((220,150))*255).show()
+
 NormedArrayOfFaces = np.subtract(matrix,averageFace)
-print NormedArrayOfFaces.shape
-print "x"*40
-eigenFaces = calculateEigenfaces(NormedArrayOfFaces, NormedArrayOfFaces.shape[1], NormedArrayOfFaces.shape[0])
-print eigenFaces.shape
+eigenFaces = calculateEigenfaces(NormedArrayOfFaces.T, NormedArrayOfFaces.shape[1], NormedArrayOfFaces.shape[0])
 
-Usub = np.zeros((63,6))
-for i in range(6):
-    print eigenFaces[i]
-    print "o"*40
-    Usub[:,i]=eigenFaces[i]
+allTransformed = []
+for face in NormedArrayOfFaces:
+    allTransformed.append(transformToEigenfaceSpace(eigenFaces,face,6))
 
-print Usub
-print NormedArrayOfFaces.shape
 
-transformed = np.zeros((63,6))
-for i in range(63):
-    for j in range(6):
-        print type(Usub)
-        print type(Usub[:,j])
-        print Usub[:,j].shape
-        print NormedArrayOfFaces[i].shape
-        transformed[i,j]= NormedArrayOfFaces[i].reshape(1,33000).dot(Usub[:,j].reshape((63,1)))
+#Choose the image which shall be recognized
+testImageDirAndFilename=tkFileDialog.askopenfilename(title="Choose Image to detect")
+imgToDetect = Image.open(testImageDirAndFilename)
+imageList = []
+imageList.append(imgToDetect)
 
-print transformed.shape
+testFace = convertImgListToNumpyData(imageList)[0]
+NormedTestFace = np.subtract(testFace,averageFace)
+transformedToDetect = transformToEigenfaceSpace(eigenFaces,NormedTestFace,6)
+
+distance = sys.float_info.max
+faceNumber = 0
+for i, img in enumerate(allTransformed):
+    tmpDist = np.linalg.norm(transformedToDetect-img)
+    if (tmpDist<distance):
+        distance = tmpDist
+        faceNumber = i
+Image.fromarray(matrix[faceNumber].reshape((220,150))*255).show()
+imgToDetect.show()
