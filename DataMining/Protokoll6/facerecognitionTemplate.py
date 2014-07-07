@@ -27,14 +27,17 @@ def parseDirectory(directoryName,extension):
 #
 #
 #
+#open all images of the listOfTrainFiles, and return a list of Image objects
 def generateListOfImgs(listOfTrainFiles):
     result = []
     for file in listOfTrainFiles:
         img = Image.open(file)
+        print img.size
         result.append(img)
 
     return result
 
+#gets a list of Image objects, returns the images as numpy arrays in a list
 def convertImgListToNumpyData(imgList):
     shape = (1, imgList[0].size[0]*imgList[0].size[1])
     col= shape[1]
@@ -46,21 +49,26 @@ def convertImgListToNumpyData(imgList):
         np_im=np.asfarray(img)
         np_im = np_im.reshape(shape)
         max = np_im[0,np.argmax(np_im)]
+        #norm the values in range of 0..1
         for i in range(col):
             np_im[0,i] = np_im[0,i]/float(max)
-
         matrix[count] = np_im
         count += 1
     return matrix
 
+#returns the eigenfaces of the input matrix
 def calculateEigenfaces(adjfaces, width, height):
     matrix = adjfaces.T.dot(adjfaces)
+    #gets eigenfaces of XT*X
     eigenvalues, eigenvectors = np.linalg.eigh(matrix)
+    #mulitply the eigenvectors with X for getting the eigenvectors of X
     u = adjfaces.dot(eigenvectors)
+    #"change" order of the sort
     index = eigenvalues.argsort()[::-1]
     u=u[:, index]
     return u
 
+#returns the transformed face in eigenface-space, gets eigenfaces, the face that should be transformed and the number of relevant eigenfaces
 def transformToEigenfaceSpace(eigenfaces, face, numFeatures):
     pointToEigenspace = np.zeros(shape=(numFeatures))
     for i in range(numFeatures):
@@ -77,38 +85,54 @@ Extension='png'
 ####################################################################################
 # Implement required functionality of the main programm here
 
-
+#TRAININGPHASE
+#get list of full filenames
 listOfTrainFiles = parseDirectory(TrainDir,Extension)
+#get list of Image objects from filename list
 imgList = generateListOfImgs(listOfTrainFiles)
+#convert all images into numpy arrays
 matrix = convertImgListToNumpyData(imgList)
+#calculate the average face of all faces
 averageFace = np.average(matrix,0)
+#show averageFace
 Image.fromarray(averageFace.reshape((220,150))*255).show()
-
+#get averagefree faces
 NormedArrayOfFaces = np.subtract(matrix,averageFace)
+#calculate eigenfaces
 eigenFaces = calculateEigenfaces(NormedArrayOfFaces.T, NormedArrayOfFaces.shape[1], NormedArrayOfFaces.shape[0])
-
+#transform all trainingfaces into eigenface-space
 allTransformed = []
 for face in NormedArrayOfFaces:
     allTransformed.append(transformToEigenfaceSpace(eigenFaces,face,6))
 
 
+#TESTPHASE
 #Choose the image which shall be recognized
 testImageDirAndFilename=tkFileDialog.askopenfilename(title="Choose Image to detect")
 imgToDetect = Image.open(testImageDirAndFilename)
+#append imgToDetect to a list to reuse functions from above
 imageList = []
 imageList.append(imgToDetect)
-
+#get numpyarray of image
 testFace = convertImgListToNumpyData(imageList)[0]
+#get averagefree face
 NormedTestFace = np.subtract(testFace,averageFace)
+#transform testface into eigenface-space
 transformedToDetect = transformToEigenfaceSpace(eigenFaces,NormedTestFace,6)
 
+#set distance to max
 distance = sys.float_info.max
 faceNumber = 0
+#calculate distance from testface to every trainingface and store index if distance is smaller than current distance
 for i, img in enumerate(allTransformed):
     tmpDist = np.linalg.norm(transformedToDetect-img)
     if (tmpDist<distance):
         distance = tmpDist
         faceNumber = i
+
+#shop image with min distance
 Image.fromarray(matrix[faceNumber].reshape((220,150))*255).show()
+#show test image
 imgToDetect.show()
+#show distance
 print "Distance of test image and found training image: ",distance
