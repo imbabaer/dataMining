@@ -96,6 +96,7 @@ matrix = convertImgListToNumpyData(imgList)
 averageFace = np.average(matrix,0)
 #show averageFace
 Image.fromarray(averageFace.reshape((220,150))*255).show()
+
 #get averagefree faces
 NormedArrayOfFaces = np.subtract(matrix,averageFace)
 '''
