@@ -12,33 +12,35 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataMining$anotherTest.coverage" NAME="anotherTest Coverage Results" MODIFIED="1397146156061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
+    <SUITE FILE_PATH="coverage/DataMining$faceRecognition.coverage" NAME="faceRecognition Coverage Results" MODIFIED="1405975069987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
+    <SUITE FILE_PATH="coverage/DataMining$energyFeatureSelection.coverage" NAME="energyFeatureSelection Coverage Results" MODIFIED="1400512993347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$newsfeatures__2_.coverage" NAME="newsfeatures (2) Coverage Results" MODIFIED="1403785826253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
+    <SUITE FILE_PATH="coverage/DataMining$energyStatistics.coverage" NAME="energyStatistics Coverage Results" MODIFIED="1400512868144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$parseTechFeed.coverage" NAME="parseTechFeed Coverage Results" MODIFIED="1403783883176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
+    <SUITE FILE_PATH="coverage/DataMining$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1397730876611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$energyPrediction.coverage" NAME="energyPrediction Coverage Results" MODIFIED="1401708256478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$newsfeatures.coverage" NAME="newsfeatures Coverage Results" MODIFIED="1403783919088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
+    <SUITE FILE_PATH="coverage/DataMining$pandas.coverage" NAME="pandas Coverage Results" MODIFIED="1397472302473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
+    <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404144922487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
+    <SUITE FILE_PATH="coverage/DataMining$fragenZuProtokoll1.coverage" NAME="fragenZuProtokoll1 Coverage Results" MODIFIED="1397146059585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
+    <SUITE FILE_PATH="coverage/DataMining$b102_stockMarketPrediction.coverage" NAME="b102_stockMarketPrediction Coverage Results" MODIFIED="1400499600926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol2" />
+    <SUITE FILE_PATH="coverage/DataMining$facerecognitionTemplate.coverage" NAME="facerecognitionTemplate Coverage Results" MODIFIED="1404740189693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
     <SUITE FILE_PATH="coverage/DataMining$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1397469965437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$matplot.coverage" NAME="matplot Coverage Results" MODIFIED="1397138622370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$b103_stockMarketClusteringFragment.coverage" NAME="b103_stockMarketClusteringFragment Coverage Results" MODIFIED="1400511698939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol2" />
-    <SUITE FILE_PATH="coverage/DataMining$RSSFeedTest.coverage" NAME="RSSFeedTest Coverage Results" MODIFIED="1401978900275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
-    <SUITE FILE_PATH="coverage/DataMining$energyStatistics__1_.coverage" NAME="energyStatistics (1) Coverage Results" MODIFIED="1400508695368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$docclassTest.coverage" NAME="docclassTest Coverage Results" MODIFIED="1402921323497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
     <SUITE FILE_PATH="coverage/DataMining$barchart_demo.coverage" NAME="barchart_demo Coverage Results" MODIFIED="1397743048980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
     <SUITE FILE_PATH="coverage/DataMining$energyReduceDim.coverage" NAME="energyReduceDim Coverage Results" MODIFIED="1400512937637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
-    <SUITE FILE_PATH="coverage/DataMining$energyClustering.coverage" NAME="energyClustering Coverage Results" MODIFIED="1400512883723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
-    <SUITE FILE_PATH="coverage/DataMining$energyPrediction.coverage" NAME="energyPrediction Coverage Results" MODIFIED="1401708256478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
-    <SUITE FILE_PATH="coverage/DataMining$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1397730876611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
-    <SUITE FILE_PATH="coverage/DataMining$newstest.coverage" NAME="newstest Coverage Results" MODIFIED="1404144922487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
-    <SUITE FILE_PATH="coverage/DataMining$example.coverage" NAME="example Coverage Results" MODIFIED="1404126398898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
-    <SUITE FILE_PATH="coverage/DataMining$facerecognitionTemplate.coverage" NAME="facerecognitionTemplate Coverage Results" MODIFIED="1404740189693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
-    <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1400512793457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
-    <SUITE FILE_PATH="coverage/DataMining$newsfeatures.coverage" NAME="newsfeatures Coverage Results" MODIFIED="1403783919088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
-    <SUITE FILE_PATH="coverage/DataMining$anotherTest.coverage" NAME="anotherTest Coverage Results" MODIFIED="1397146156061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$b102_stockMarketPrediction.coverage" NAME="b102_stockMarketPrediction Coverage Results" MODIFIED="1400499600926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol2" />
-    <SUITE FILE_PATH="coverage/DataMining$newsfeatures__1_.coverage" NAME="newsfeatures (1) Coverage Results" MODIFIED="1403784074697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
-    <SUITE FILE_PATH="coverage/DataMining$pandas.coverage" NAME="pandas Coverage Results" MODIFIED="1397472302473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$newsfeatures__2_.coverage" NAME="newsfeatures (2) Coverage Results" MODIFIED="1403785826253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll5" />
-    <SUITE FILE_PATH="coverage/DataMining$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1397473475129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestsNStuff" />
+    <SUITE FILE_PATH="coverage/DataMining$faceRecognitionTestAll.coverage" NAME="faceRecognitionTestAll Coverage Results" MODIFIED="1406117665820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll6" />
+    <SUITE FILE_PATH="coverage/DataMining$matplot.coverage" NAME="matplot Coverage Results" MODIFIED="1397138622370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
     <SUITE FILE_PATH="coverage/DataMining$test.coverage" NAME="test Coverage Results" MODIFIED="1397729318334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InitioalTests" />
-    <SUITE FILE_PATH="coverage/DataMining$parseTechFeed.coverage" NAME="parseTechFeed Coverage Results" MODIFIED="1403783883176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
-    <SUITE FILE_PATH="coverage/DataMining$docclassTest.coverage" NAME="docclassTest Coverage Results" MODIFIED="1402921323497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
-    <SUITE FILE_PATH="coverage/DataMining$fragenZuProtokoll1.coverage" NAME="fragenZuProtokoll1 Coverage Results" MODIFIED="1397146059585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll1" />
-    <SUITE FILE_PATH="coverage/DataMining$energyStatistics.coverage" NAME="energyStatistics Coverage Results" MODIFIED="1400512868144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
-    <SUITE FILE_PATH="coverage/DataMining$energyFeatureSelection.coverage" NAME="energyFeatureSelection Coverage Results" MODIFIED="1400512993347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$newsfeatures__1_.coverage" NAME="newsfeatures (1) Coverage Results" MODIFIED="1403784074697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
+    <SUITE FILE_PATH="coverage/DataMining$RSSFeedTest.coverage" NAME="RSSFeedTest Coverage Results" MODIFIED="1401978900275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokoll4" />
+    <SUITE FILE_PATH="coverage/DataMining$energyStatistics__1_.coverage" NAME="energyStatistics (1) Coverage Results" MODIFIED="1400508695368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol1" />
+    <SUITE FILE_PATH="coverage/DataMining$energyClustering.coverage" NAME="energyClustering Coverage Results" MODIFIED="1400512883723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
+    <SUITE FILE_PATH="coverage/DataMining$example.coverage" NAME="example Coverage Results" MODIFIED="1404126398898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+    <SUITE FILE_PATH="coverage/DataMining$b103_stockMarketClusteringFragment.coverage" NAME="b103_stockMarketClusteringFragment Coverage Results" MODIFIED="1400511698939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Protokol2" />
+    <SUITE FILE_PATH="coverage/DataMining$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1397473475129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestsNStuff" />
+    <SUITE FILE_PATH="coverage/DataMining$appendGeoCordinates.coverage" NAME="appendGeoCordinates Coverage Results" MODIFIED="1400512793457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Export/Protokoll1+2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -52,12 +54,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="faceRecognition.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protokoll6/faceRecognition.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="0" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1326">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="facerecognitionTemplate.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="36" selection-start="3575" selection-end="3575" vertical-scroll-proportion="0.23880596" vertical-offset="1621" max-vertical-offset="2516">
+            <state line="108" column="21" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.042079207" vertical-offset="1683" max-vertical-offset="2397">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faceRecognitionTestAll.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Protokoll6/faceRecognitionTestAll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="21" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#28#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,14 +123,16 @@
         <option value="$PROJECT_DIR$/Protokoll5/newsfeatures.py" />
         <option value="$PROJECT_DIR$/Protokoll5/newstest.py" />
         <option value="$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py" />
+        <option value="$PROJECT_DIR$/Protokoll6/faceRecognition.py" />
+        <option value="$PROJECT_DIR$/Protokoll6/faceRecognitionTestAll.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -212,6 +234,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
     <property name="SearchEverywhereHistory" value="'" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../ObjectRecognition" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -227,45 +250,7 @@
       <recent name="D:\softwareprojects\dataMining\DataMining\DataMining\Protokoll4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.facerecognitionTemplate">
-    <configuration default="false" name="newsfeatures (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokoll4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataMining" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\softwareprojects\dataMining\DataMining\DataMining\Protokoll5\newsfeatures.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="newsfeatures (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokoll5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DataMining" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokoll5/newsfeatures.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.faceRecognitionTestAll">
     <configuration default="false" name="newstest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -324,6 +309,44 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="faceRecognitionTestAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokoll6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataMining" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokoll6/faceRecognitionTestAll.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="faceRecognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Protokoll6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DataMining" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Protokoll6/faceRecognition.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -478,19 +501,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.newsfeatures (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.newsfeatures (2)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.newstest" />
-      <item index="3" class="java.lang.String" itemvalue="Python.example" />
-      <item index="4" class="java.lang.String" itemvalue="Python.facerecognitionTemplate" />
+      <item index="0" class="java.lang.String" itemvalue="Python.newstest" />
+      <item index="1" class="java.lang.String" itemvalue="Python.example" />
+      <item index="2" class="java.lang.String" itemvalue="Python.facerecognitionTemplate" />
+      <item index="3" class="java.lang.String" itemvalue="Python.faceRecognitionTestAll" />
+      <item index="4" class="java.lang.String" itemvalue="Python.faceRecognition" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.facerecognitionTemplate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.newstest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.example" />
-        <item index="3" class="java.lang.String" itemvalue="Python.newsfeatures (2)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.newsfeatures (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.faceRecognitionTestAll" />
+        <item index="1" class="java.lang.String" itemvalue="Python.faceRecognition" />
+        <item index="2" class="java.lang.String" itemvalue="Python.facerecognitionTemplate" />
+        <item index="3" class="java.lang.String" itemvalue="Python.newstest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.example" />
       </list>
     </recent_temporary>
   </component>
@@ -521,27 +544,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10258482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16325037" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1558966" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39751554" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29658386" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29508197" sideWeight="0.5767367" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -594,6 +617,29 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="3" selection-start="3539" selection-end="3539" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokoll6/faceRecognitionTestAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="33" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0" vertical-offset="954" max-vertical-offset="1666">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="3" selection-start="3539" selection-end="3539" vertical-scroll-proportion="0.0" vertical-offset="1717" max-vertical-offset="2533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Export/Protokoll1+2/energyFeatureSelection.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391" />
@@ -646,11 +692,6 @@
     <entry file="file://$PROJECT_DIR$/Protokol1/appendGeoCordinates.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="15" selection-start="2873" selection-end="2873" vertical-scroll-proportion="0.0" vertical-offset="1491" max-vertical-offset="2057" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/energyStatistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.13783784" vertical-offset="51" max-vertical-offset="714" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokol1/energyStatistics.py">
@@ -772,11 +813,6 @@
         <state line="11" column="18" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/recommtest1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="418" selection-end="418" vertical-scroll-proportion="0.22977346" vertical-offset="164" max-vertical-offset="782" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll3/documents-export-2014-05-22/recommendations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="39" selection-start="2322" selection-end="2322" vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="3366" />
@@ -821,24 +857,9 @@
         <state line="87" column="11" selection-start="4007" selection-end="4011" vertical-scroll-proportion="0.24460432" vertical-offset="1377" max-vertical-offset="48688" />
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/nltk/corpus/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.0" vertical-offset="719" max-vertical-offset="1360" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/numpy/matrixlib/defmatrix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="353" column="0" selection-start="9712" selection-end="9712" vertical-scroll-proportion="0.0" vertical-offset="5886" max-vertical-offset="18700" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/nmf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1581" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll5/newsfeatures.py">
@@ -859,12 +880,26 @@
         <state line="446" column="0" selection-start="364979" selection-end="364979" vertical-scroll-proportion="0.0" vertical-offset="7582" max-vertical-offset="7684" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Protokoll6/faceRecognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1439" selection-end="1439" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Protokoll6/faceRecognitionTestAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="21" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Protokoll6/facerecognitionTemplate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="36" selection-start="3575" selection-end="3575" vertical-scroll-proportion="0.23880596" vertical-offset="1621" max-vertical-offset="2516">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state line="108" column="21" selection-start="3825" selection-end="3825" vertical-scroll-proportion="0.042079207" vertical-offset="1683" max-vertical-offset="2397">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ from os.path import isdir,join,normpath
 from os import listdir
 from PIL import Image
 import numpy as np
+import cv2
 from numpy import asfarray,dot,argmin,zeros
 
 def parseDirectory(directoryName,extension):
